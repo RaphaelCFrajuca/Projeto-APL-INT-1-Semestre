@@ -8,12 +8,13 @@ Este é o repositório do 1º projeto do curso de Aplicações para Internet do 
 ## Integrantes do Grupo (Desenvolvedores)
 
  - **Raphael Carneiro Frajuca** ([Github](https://github.com/BadGuy552)) - Líder
-  - **Vitor** - Sublíder
- - **Adelia Aline** - Integrante
- - **Renan** - Integrante
+  - **Victor Souza da Silva** ([Github](https://github.com/VictorSouzaah)) - Sublíder
+ - **Adelia Aline Guimarães Marques** ([Github](https://github.com/Alinetie)) - Integrante
+ - **Renan Bonfin de Souza Moreira** ([Github](https://github.com/renanbonfimsouza)) - Integrante
 
 ## Sobre o Trabalho
 
- - **Tema:** Não definido
+ - **Nome do site:** Emprega Brasil
+ - **Tema:** Agência de empregos
  - **Inicio do Projeto:** 12/04/2019
  - **Fim do Projeto:** --
