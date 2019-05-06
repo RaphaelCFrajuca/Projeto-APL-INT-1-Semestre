@@ -1,4 +1,27 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #F4F6F6;
+}
+
 #menu_botao {
     text-decoration: none;
-    
+    color: black;
+    font-size: 100%;
+}
+#menu_botao:hover {
+    text-align: center;
+}
+#menu td:hover {
+    background-color: #CB4335;
+}
+#menu {
+    /*border: 1px solid black;*/
+    background-color: #C0392B;
+    -webkit-box-shadow: 1px 5px 6px 0px rgba(50, 50, 50, 0.22);
+    -moz-box-shadow:    1px 5px 6px 0px rgba(50, 50, 50, 0.22);
+    box-shadow:         1px 5px 6px 0px rgba(50, 50, 50, 0.22);
+    position: fixed;
+    width: 100%;
+    height: 10%;
 }
