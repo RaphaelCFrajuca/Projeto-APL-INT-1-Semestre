@@ -14,6 +14,7 @@ body {
 }
 #menu td:hover {
     background-color: #CB4335;
+    cursor: pointer;
 }
 #menu {
     /*border: 1px solid black;*/
