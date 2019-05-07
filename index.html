@@ -4,43 +4,49 @@
         <title>Emprega Brasil</title>
         <link href="style.css" type="text/css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:300" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
         <meta charset="utf-8"/>
     </head>
     <body>
         <div align="center" id="menu"> <!-- MENU -->
             <table border="0" align="center" id="menu">
                 <tr>
-                    <td onclick="window.location='index.html'" bgcolor="#CB4335"> <!--Raphael-->
-                        <font face="Open Sans" size="4px"><center><a href="index.html" id="menu_botao">Início</a></center></font>
+                    <td onclick="window.location='index.html'" id="inicio"> <!--Raphael-->
+                        <font face="Open Sans" size="4px"><center><a href="index.html" id="menu_botao_inicio"><img src="img/logo.png"></a></center></font>
                     </td>
-                    <td onclick="window.location='sobre.html'"> <!--Adelia-->
+                    <td onclick="window.location='sobre.html'" id="sobre"> <!--Adelia-->
                         <font face="Open Sans" size="4px"><center><a href="sobre.html" id="menu_botao">Sobre a Empresa</a></center></font>
                     </td>
-                    <td onclick="window.location='aprendiz.html'"> <!--Victor-->
+                    <td onclick="window.location='aprendiz.html'" id="aprendiz"> <!--Victor-->
                         <font face="Open Sans" size="4px"><center><a href="aprendiz.html" id="menu_botao">Jovem Aprendiz</a></center></font>
                     </td>
-                    <td onclick="window.location='cursos.html'"> <!--Renan-->
+                    <td onclick="window.location='cursos.html'" id="cursos"> <!--Renan-->
                         <font face="Open Sans" size="4px"><center><a href="cursos.html" id="menu_botao">Cursos</a></center></font>
                     </td>
-                    <td onclick="window.location='cadastro_empresas.html'"> <!--Victor-->
+                    <td onclick="window.location='cadastro_empresas.html'" id="cadastro_empresas"> <!--Victor-->
                         <font face="Open Sans" size="4px"><center><a href="cadastro_empresas.html" id="menu_botao">Cadastro Empresas</a></center></font>
                     </td> <!--Renan-->
-                    <td onclick="window.location='cadastro_usuarios.html'">
+                    <td onclick="window.location='cadastro_usuarios.html'" id="cadastro_usuarios">
                         <font face="Open Sans" size="4px"><center><a href="cadastro_usuarios.html" id="menu_botao">Cadastro Usuários</a></center></font>
                     </td>
-                    <td onclick="window.location='contato.html'"> <!--Raphael-->
+                    <td onclick="window.location='contato.html'" id="contato"> <!--Raphael-->
                         <font face="Open Sans" size="4px"><center><a href="contato.html" id="menu_botao">Fale Conosco</a></center></font>
                     </td>
-                    <td onclick="window.location='avaliacoes.html'"> <!--Adelia-->
+                    <td onclick="window.location='avaliacoes.html'" id="avaliacoes"> <!--Adelia-->
                         <font face="Open Sans" size="4px"><center><a href="avaliacoes.html" id="menu_botao">Avaliações</a></center></font>
                     </td>
                 </tr>
             </table>
         </div>
 
-        <div id="conteudo"> <!-- CONTEUDO -->
+        <div id="conteudo" class="scale-in-center"> <!-- CONTEUDO -->
 
-            <h1 id="titulo">Emprega Brasil, o melhor site de vagas no Brasil!</h1>
+            <!----<h1 id="titulo">Emprega Brasil, o melhor site de vagas no Brasil!</h1>-->
+
+            <div id="imagem1">
+                
+            </div>
 
             <div id="destaque1">
                 <h1>Analista contábil: 66</h1>
