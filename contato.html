@@ -32,6 +32,50 @@
 
         <div id="conteudo" class="scale-in-center"> <!-- CONTEUDO -->
 
+          <h1>Fale conosco via e-mail!</h1>
+          <br>
+          <br>
+          <div id="fale_conosco">
+
+            <!--E-MAIL-->
+            <form action="contato.html" method="POST" accept="application/x-www-form-urlencoded">
+
+              <input type="hidden" name="tipo_formulario" value="e-mail">
+
+              <b><p>Nome completo:</p></b>
+              <input type="text" name="nome" placeholder="Exemplo: Rafael Pereira Caixeta" required><br>
+
+              <b><p>CPF:</p></b>
+              <input type="tel" maxlength="11" name="cpf" placeholder="Máximo 11 caracteres" required><br>
+
+              <b><p>E-mail:</p></b>
+              <input type="email" name="email" placeholder="seuemail@dominio.com" required><br>
+
+              <b id="areatexto"><p id="areatexto">Insira sua solicitação de contato:</p></b>
+              <textarea maxlength="500" name="solicitacao" placeholder="Máxmo de 500 caracteres" cols="41" rows="11" required></textarea><br>
+
+              <br>
+              <input type="submit" value="Enviar" id="enviar" class="scale-down-center">
+            </form>
+
+            <!--Telefone-->
+
+            <br>
+            <br>           
+
+          </div>
+
+          <h1>Caso prefira, favor entrar em contato via telefone:</h1>
+
+            <div id="telefone" align="center">
+              
+
+              <ul>
+                <li><p><b>Comercial: </b>(11) 4995-8976</p></li>
+                <li><p><b>Celular: </b>(11) 96943-4612</p></li>
+              </ul>
+            </div>
+          
             
         </div>
     </body>

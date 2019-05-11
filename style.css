@@ -82,7 +82,33 @@
               transform: translateY(0);
       opacity: 0.7;
     }
-  }  
+  }
+  @-webkit-keyframes scale-down-center {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    100% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+  }
+  @keyframes scale-down-center {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    100% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+  }
+  
+
+.scale-down-center:active {
+    -webkit-animation: scale-down-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: scale-down-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
   
 .scale-in-center {
 	-webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -370,4 +396,51 @@ p {
 #pesquisa {
   margin-bottom: 15%;
   margin-top: 5%;
+}
+
+#fale_conosco p {
+  margin: 10px 0px 0px 0px;
+  float: left;
+  width: 220px;
+}
+
+
+
+#fale_conosco input {
+  background-color: white;
+  border-radius: 3px;
+  border: 2px solid #C7C7C7;
+  width: 308px;
+  height: 30px;
+  font-family: Montserrat;
+  font-weight: bold;
+  
+}
+
+#fale_conosco input:focus {
+  border: 2px solid #C7C7C7;
+}
+
+#fale_conosco textarea {
+  background-color: white;
+  border-radius: 3px;
+  border: 2px solid #C7C7C7;
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+#fale_conosco textarea:focus {
+  border: 2px solid #C7C7C7;
+}
+
+#enviar {
+  margin-left: 222px;
+}
+
+#enviar:hover {
+  background-color: #C7C7C7;
+}
+
+#enviar:active {
+  background-color: #959999;
 }
