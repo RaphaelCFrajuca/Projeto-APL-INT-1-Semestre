@@ -99,7 +99,7 @@
 	        animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
-li {
+#navbar li {
     list-style: none;
     width: 80%;
     height: 70px;
@@ -108,8 +108,17 @@ li {
     border-radius: 0px 10px 10px 0px;
 }
 
-ul {
+#navbar ul {
     padding: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  font-family: 'Open Sans';
+  padding-bottom: 1px;
 }
 
 body {
@@ -127,6 +136,31 @@ h1 {
     text-align: center;
     margin: 0px;
     text-decoration: none;
+}
+
+h2 {
+  font-family: Montserrat;
+  text-align: center;
+  margin: 0px;
+  text-decoration: none;
+}
+
+h3 {
+  font-family: Montserrat;
+  text-align: center;
+  margin: 0px;
+  text-decoration: none;
+}
+
+h4 {
+  font-family: Montserrat;
+  text-align: center;
+  margin: 0px;
+  text-decoration: none;
+}
+
+p {
+  font-family: Montserrat;
 }
 
 #titulo {
@@ -232,6 +266,7 @@ h1 {
     -moz-box-shadow:    1px 5px 6px 0px rgba(50, 50, 50, 0.22);
     box-shadow:         1px 5px 6px 0px rgba(50, 50, 50, 0.22);
     overflow: hidden;
+    padding: 5px;
 }
 
 #destaque1 {
