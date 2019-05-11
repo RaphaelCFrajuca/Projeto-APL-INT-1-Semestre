@@ -259,7 +259,7 @@ p {
     background-color: white;
     width: 65%;
     /*height: 1300px;*/
-    margin: 30px 30px auto;
+    margin: 30px 30px 15px auto;
     float: right;
     border-radius: 10px;
     -webkit-box-shadow: 1px 5px 6px 0px rgba(50, 50, 50, 0.22);
